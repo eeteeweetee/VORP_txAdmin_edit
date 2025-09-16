@@ -55,7 +55,7 @@ CREATE TABLE `characters` (
   `compPlayer` longtext COLLATE utf8mb4_bin DEFAULT NULL,
   `compTints` LONGTEXT NULL DEFAULT NULL COLLATE 'utf8mb4_bin',
   `jobgrade` INT(11) DEFAULT 0,
-  `coords` LONGTEXT COLLATE utf8mb4_bin DEFAULT '{}',
+  `coords` LONGTEXT COLLATE utf8mb4_bin,
   `status` varchar(140) COLLATE utf8mb4_bin DEFAULT '{}',
   `isdead` tinyint(1) DEFAULT 0,
   `skills` LONGTEXT COLLATE utf8mb4_bin DEFAULT NULL,
